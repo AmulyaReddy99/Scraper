@@ -6,6 +6,10 @@ import lxml
 import json
 import click
 
+
+def cli():
+	print("Hello, World")
+
 stock_data = {}
 financial_data = {}
 project_url = "https://data.amulya97.hasura-app.io/"
