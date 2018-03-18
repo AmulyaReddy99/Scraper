@@ -4,3 +4,5 @@ requests
 lxml
 json
 click
+mustache
+consolidate

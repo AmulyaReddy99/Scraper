@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
 	name = 'scraper',
-	version = '1.0.0',
+	version = '1.0.1',
 	py_modules = ['scraper'],
 	author = 'Amulya Reddy',
 	author_email = 'amulyareddyk97@gmail.com',
