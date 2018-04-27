@@ -1,0 +1,7 @@
+youtube.py
+scraper.egg-info/PKG-INFO
+scraper.egg-info/SOURCES.txt
+scraper.egg-info/dependency_links.txt
+scraper.egg-info/entry_points.txt
+scraper.egg-info/requires.txt
+scraper.egg-info/top_level.txt

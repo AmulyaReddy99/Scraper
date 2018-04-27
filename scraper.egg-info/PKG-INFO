@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: scraper
+Version: 1.0.1
+Summary: A web scraper that provides an interface for data, collected from a website, in the form of graphs.This software, from users corner, helps in a quicklook at the trends rather than the going through long tedious data sheets. The expected users are extensively business oriented and sports oriented. Business organisations can select Top Companies by the category for the charts/analytics. The other important users are from sports field. For improvement in any field, esp. in sports, analysis of opponents plays a key role. For sports enthusiasts, this platform serves best to see the trends of sports
+Home-page: https://github.com/AmulyaReddy99/Scraper
+Author: Amulya Reddy
+Author-email: amulyareddyk97@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
