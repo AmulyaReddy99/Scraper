@@ -1,0 +1,574 @@
+Abhijit Mitra 
+Professor 
+Ph.D (IIT, Kanpur)
+Research Areas: 
+Quantum chemical computation of noncovalent interactions, Molecular mechanisms of functional biomolecules, Geometries and Interaction energies of noncanonical base pairs, Structure and dynamics of functional RNAs, Riboswitches, Metabolomics, Education and values
+Research Center/Lab: CCNSB
+
+Abhishek Sarkar 
+Senior Research Scientist  
+Ph.D (IIT, Kanpur)
+Research Areas: 
+Biped / Humanoid locomotion: Walking, Jumping, running. Optimal path planning and gait generation on uneven terrain, Compliance, soft-robotics and human-robot interaction
+Research Center/Lab: RRC
+
+Abhishek Srivastava
+Assistant Professor 
+Ph.D (IIT, Bombay)
+Research Areas: 
+Analog and radio frequency integrated circuits and systems for wireless communication and healthcare applications.
+Research Center/Lab: CVEST
+
+Aditi Mukherjee 
+Visiting Faculty 
+Ph.D (Delhi University)
+Research Areas: 
+Sociolinguistics, Literacy studies
+Research Center/Lab: LTRC
+
+Aftab M. Hussain 
+Assistant Professor 
+Ph.D (KAUST, Saudi Arabia)
+Research Areas: 
+Flexible and stretchable electronics, IoT devices, sensor systems
+Research Center/Lab: CVEST
+
+Alok Rai 
+Visiting Faculty 
+Ph.D (University College London)
+Research Areas: 
+Modern English Literature; cultural processes in modern North India, with particular reference to issues of language and literature.
+Research Center/Lab: CEH
+
+Aniket Alam
+Associate Professor 
+Ph.D (JNU, New Delhi)
+Research Areas: 
+Modern Indian History / Western Himalayas and Mountain Societies; Historical Methods; Geography and History
+Research Center/Lab: CEH
+
+Anil Kumar Vuppala
+Assistant Professor 
+Ph.D (IIT, Kharagpur)
+Research Areas: 
+Speech processing in wireless environment, speech recognition, speaker recognition
+Research Center/Lab: LTRC , SPCRC
+
+Anoop M. Namboodiri
+Associate Professor 
+Ph.D (Michigan State University, USA)
+Research Areas: 
+Pattern recognition, machine learning, computer vision, biometrics
+Research Center/Lab: CVIT
+
+Aruna Chaluvadi
+Part- time Visiting Professor 
+Ph.D (MTW University)
+Research Areas: 
+English and American Literature, Complexity in Second Language Motivation, Communicative Language Training, Feminist Research, Science Writing
+Research Center/Lab:
+
+Ashok Kumar Das
+Associate Professor 
+Ph.D (IIT, Kharagpur)
+Research Areas: 
+Key management in wireless sensor networks, user authentication in wireless sensor networks, access control in wireless sensor networks, key agreement in mobile ad hoc networks, proxy signature, remote user authentication using smart cards, hierarchical access control
+Research Center/Lab: CSTAR
+
+Avinash Sharma
+Assistant Professor 
+Ph.D (INRIA Rhone-Alpes, France)
+Research Areas: 
+Computer Vision, Machine Learning
+Research Center/Lab: CVIT
+
+Chandrasekher Mukku
+UGC Research Scientist 
+Ph.D (Imperial College, London)
+Research Areas: 
+Gravitational theories, quantum field theory, heat kernels, dynamical systems and chaos, computational techniques
+Research Center/Lab: CCNSB
+
+Deva Priyakumar U
+Associate Professor 
+Ph.D (Pondicherry University)
+Research Areas: 
+Computational chemistry to study chemical molecules and reaction mechanisms, biomolecular simulations to investigate DNA, RNA, proteins and protein interactions and computer aided drug design
+Research Center/Lab: CCNSB
+
+Dipti Misra Sharma
+Professor 
+Ph.D (Delhi University)
+Research Areas: 
+Machine translation, linguistics
+Research Center/Lab: LTRC , COS
+
+Girish Varma
+Senior Project Scientist 
+Ph.D (Tata Institute of Fundamental Research, Mumbai)
+Research Areas: 
+Deep Learning, Computer Vision, Machine Learning
+Research Center/Lab: MLL
+
+Govindarajulu R.
+Professor Emeritus 
+Ph.D (IIT, Kanpur)
+Research Areas: 
+Programming languages and systems, microprocessors and computer architecture, compilers(CVEST)
+Research Center/Lab: CVEST
+
+Harjinder Singh
+Professor 
+Ph.D (Princeton University, USA)
+Research Areas: 
+Theoretical, computational chemistry and biology, chemical dynamics electronic structure and properties calculations
+Research Center/Lab: CCNSB
+
+Indranil Chakrabarty
+Assistant Professor 
+Ph.D (Bengal Engineering and Science University)
+Research Areas: 
+Quantum information (relativistic and non- relativistic), fisher information
+Research Center/Lab: CSTAR
+
+Jawahar C. V.
+Professor & Amazon Chair Professor 
+Ph.D (IIT, Kharagpur)
+Research Areas: 
+Computer vision, machine learning, multimedia systems
+Research Center/Lab: CVIT
+
+Jayanthi Sivaswamy
+Professor & Dean(Academics) 
+Ph.D (Syracuse University)
+Research Areas: 
+Image processing, medical image analysis and biological vision
+Research Center/Lab: SPCRC , CVIT , CITE
+
+Jolly Thomas
+Visiting Assistant Professor 
+Ph.D (UOH, Hyderabad)
+Research Areas: 
+Metaphysics, Meta-ontology, Epistemology, Philosophy of Language
+Research Center/Lab: CEH
+
+K. Madhava Krishna
+Professor 
+Ph.D (IIT, Kanpur)
+Research Areas: 
+Mobile robotics, robotic vision, outdoor robotics, multi-robotic systems and mechanism design
+Research Center/Lab: RRC
+
+Kamalakar Karlapalem
+Professor 
+Ph.D (Georgia Institute of Technology, USA)
+
+Research Areas: 
+Database system, data visualization, data analytics, multi agent systems, workflows and electronic contracts
+Research Center/Lab: CDE
+
+Kannan Srinathan
+Assistant Professor 
+Ph.D (IIT, Madras)
+Research Areas: 
+Cryptography, security
+Research Center/Lab: CSTAR
+
+Kavita Vemuri
+Assistant Professor 
+Ph.D (IIIT,H)
+Research Areas: 
+Cognitive neuroscience of empathy, game design and engineering, innovation and entrepreneurship, fiber optic and liquid crystal devices for optical communications and sensors, control systems
+Research Center/Lab: CIE , CogSci
+
+Kishore Kothapalli
+Associate Professor 
+Ph.D (John Hopkins University, USA)
+Research Areas: 
+Multicore and many core algorithms, distributed algorithms
+Research Center/Lab: CSTAR
+
+Kishore S. Prahallad
+Associate Professor (on leave) 
+Ph.D (Carnegie Mellon University, USA)
+Research Areas: 
+Audio, speech and language processing, machine learning, multimedia systems
+Research Center/Lab: LTRC
+
+Krishna Reddy P.
+Professor 
+Ph.D (JNU, New Delhi)
+Research Areas: 
+Data mining,data management, transaction models, distributed computing,performance evaluation,and information technology for agriculture
+Research Center/Lab: ITARD , CDE
+
+Lakshmi B.S
+Part-time Visiting Professor 
+Ph.D (OU, Hyderabad)
+Research Areas: 
+Mathematics
+Research Center/Lab:
+
+Lalitha Vadlamani
+Assistant Professor 
+Ph.D (IISC, Bangalore)
+Research Areas: 
+Coding Theory, Information Theory, Signal Processing, Distributed Storage Systems
+Research Center/Lab: SPCRC
+
+Lavanya Ramapantulu
+Assistant Professor 
+Ph.D (National University of Singapore, Singapore)
+Research Areas: 
+Parallel and Distributed Systems, Computer Architecture and Modelling and Performance Evaluation
+Research Center/Lab: CSG
+
+Lini Teresa Thomas
+Visiting Assistant professor 
+Ph.D (IIIT,Hyderabad)
+Research Areas: 
+Skylines, Clustering, Graph Mining, Medical Document Mining
+Research Center/Lab: SAC
+
+Manish Shrivastava
+Assistant Professor 
+Ph.D (IIT,Bombay)
+Research Areas: 
+Natural Language Processing, Machine Learning, Machine Translation, NLP for India Languages.
+Research Center/Lab: LTRC
+
+Marimuthu Krishnan
+Assistant Professor 
+Ph.D (JNCASR, Bangalore)
+Research Areas: 
+Computational molecular biophysics, computer simulation of interfacial phenomena in nano-biomaterials, phase behaviour of polymer nanocomposites, computational physics of ion transport through nanopores and in polymer electrolytes(CCNSB)
+Research Center/Lab: CCNSB
+
+Narayanan P. J.
+Professor & Director 
+Ph.D (University of Maryland, USA)
+Research Areas: 
+Computer vision, graphics
+Research Center/Lab: CVIT
+
+Naresh Manwani
+Assistant Professor 
+Ph.D (IISC, Bangalore)
+Research Areas: 
+Machine Learning, Data Mining, Deep Learning, Natural Language Processing
+Research Center/Lab: MLL
+
+Nimmi Rangaswamy
+Visiting Associate Professor 
+Ph.D (University of Mumbai)
+Research Areas: 
+Sociology of Digital Media, ICT for Development
+Research Center/Lab: SAHAAI Group , KCIS
+
+Nishad Patnaik
+Visiting Assistant Professor 
+Ph.D (The New School for Social Research, New York, U.S.A)
+Research Areas: 
+German Idealism, Classical Phenomenology, Marx and Critical Theory, Ethics, Psychoanalysis and Deconstruction
+Research Center/Lab: CEH
+
+Nita Parekh
+Associate Professor 
+Ph.D (JNU, New Delhi)
+Research Areas: 
+Pattern recognition (viz., identifying repeats, genomic islands), comparative genomics and data mining, dynamical systems modeling and graph theory approaches to biological networks
+Research Center/Lab: CCNSB
+
+Pawan Kumar
+Assistant Professor 
+Ph.D (INRIA, France)
+Research Areas: 
+Parallel Computing, Scientific Computing, Numerical Methods for Machine Learning and Data Mining
+Research Center/Lab: CSTAR
+
+Peter M Scharf
+Visiting Professor 
+Ph.D (University of Pennsylvania)
+Research Areas: 
+Linguistics, Philosophy
+Research Center/Lab: LTRC
+
+Ponnurangam Kumaraguru
+Visiting Associate Professor 
+Ph.D (Carnegie Mellon University, USA)
+Research Areas: 
+Cybersecurity, Privacy, Privacy & Security in Online Social Media and Social Computing
+Research Center/Lab: LTRC
+
+Prabhakar Bhimalapuram
+Assistant Professor 
+Ph.D (Cornell University, USA)
+Research Areas: 
+Thermodynamics and statistical mechanics of equilibrium and non equilibrium systems
+Research Center/Lab: CCNSB
+
+Pradeep Kumar Ramancharla
+Professor & Registrar 
+Ph.D (University of Tokyo)
+Research Areas: 
+Earthquake engineering and structural dynamics, analysis and design of RC structures, numerical simulation of non-engineered buildings, development of awareness raising tools for earthquake disaster mitigation, collapse analysis of structures
+Research Center/Lab: EERC , ENTICE , CBS
+
+Prasad Krishnan
+Assistant Professor 
+Ph.D (IISC, Bangalore)
+Research Areas: 
+Codes for Wireless Communications, Index Coding, Coded Caching, Network Coding, Codes for DNA Storage.(SPCRC)
+Research Center/Lab: SPCRC
+
+Praveen Paruchuri
+Associate Professor 
+Ph.D (University of Southern California, USA)
+Research Areas: 
+Artificial Intelligence, Multi-agent Systems, Game Theory
+Research Center/Lab:
+
+Priyanka Srivastava
+Senior Research Scientist 
+Ph.D (University of Allahabad)
+Research Areas: 
+Visual and Auditory Perception, Cognition, Human Factors, Spatial Perception and Representation, and Virtual Reality
+Research Center/Lab: CogSci
+
+Radhika Krishnan
+Visiting Assistant Professor 
+Ph.D (JNU, New Delhi)
+Research Areas: 
+Technology Studies, Ecology, Development and Labour
+Research Center/Lab: CEH
+
+Radhika Mamidi
+Associate Professor 
+Ph.D (UOH, Hyderabad)
+Research Areas: 
+Computational morphology, machine translation, dialog systems, pragmatics, humour studies
+Research Center/Lab: LTRC
+
+Raghu Babu Reddy Y.
+Associate Professor 
+Ph.D (Colorado State University, USA)
+Research Areas: 
+Model driven development, Software Requirements and Architecture, Verification & Validation, Usability and Software engineering education.
+Research Center/Lab: SERC
+
+Rajan K. S.
+Associate Professor 
+Ph.D (University of Tokyo)
+Research Areas: 
+Application of GIS and remote sensing to sustainable environmental issues(LSI, EERC, COS)
+Research Center/Lab: LSI , EERC , COS
+
+Rajeev Sangal
+Professor 
+Ph.D (Universit y of Pennsylvania, USA)
+Research Areas: 
+Natural language processing, artificial intelligence, machine translation, speech processing
+Research Center/Lab: LTRC , CEH
+
+Ramachandra Prasad P.
+Assistant Professor 
+Ph.D (Osmania University)
+Research Areas: 
+Application of geospatial tools in ñ forest ecosystem, island ecology, climate change, land use - land cover changes, integrated water resource management (IWRM) studies
+Research Center/Lab: EERC , LSI
+
+Rambabu Kalla
+Assistant Professor 
+Ph.D (IIT,Bombay)
+Research Areas: 
+Analysis and synthesis of fractional -order systems
+Research Center/Lab: RRC
+
+Ramesh Loganathan
+Professor of Practice, Co-innovations 
+M.E (Anna University, Guindy)
+Research Areas: 
+Software Engineering, Entrepreneurship, Innovation
+Research Center/Lab: SERC
+
+Ravi Kiran Sarvadevabhatla
+Assistant Professor 
+Ph.D (IISC, Bangalore)
+Research Areas: 
+Compter Vision, Machine Learning, Virtual Reality, Robotics, Affective Computing, Document Analysis, Multimedia
+Research Center/Lab: CVIT
+
+Sachin Chaudhari
+Assistant Professor 
+Ph.D (Aalto University, Finland)
+Research Areas: 
+Next-generation wireless communication systems: 5G and Beyond, Internet of Things, Cognitive Radios.
+Research Center/Lab: SPCRC
+
+Sanjay Rawat
+Assistant Professor (onleave) 
+Ph.D (UOH, Hyderabad)
+Research Areas: 
+Static and Dynamic Security code analysis (using techniques dataflow analysis, abstract interpretation, value-set analysis for pointer analysis, equational reasoning etc.), Binary analysis, smart fuzzing, machine learning for security, evolutionary algorithms for security testing (fuzzing), intrusion detection systems, network security, application security.(CSTAR)
+Research Center/Lab: CSTAR
+
+Santosh Nannuru
+Assistant Professor [INSPIRE] 
+Ph.D (McGill University, Canada)
+Research Areas: 
+Signal processing, target localization and tracking
+Research Center/Lab: SPCRC
+
+Sarma K. R.
+Professor Emeritus 
+Ph.D (Cornell University)
+Research Areas: 
+Communication, instrumentation and displays (SPCRC)
+Research Center/Lab: SPCRC
+
+Shaik Rehna
+Assistant Professor 
+Ph.D (IISC, Bangalore)
+Research Areas: 
+Hydrologic Impacts of Climate Change, Statistical Downscaling, Uncertainty Modeling, Water Quality Management, Reservoir Operation, Irrigation Planning
+Research Center/Lab: LSI
+
+Shatrunjay Rawat
+Systems Associate Professor 
+M.S (BITS, Pilani)
+Research Areas: 
+Computer networks, information security, network forensics, e-governance, human values, Vedic darshan (philosophy)
+Research Center/Lab: CSTAR , COS
+
+Soma Paul
+Research Assistant Professor (onleave) 
+Ph.D (UOH, Hyderabad)
+Research Areas: 
+Computational morphology, computational syntax and semantics and theoretical linguistics
+Research Center/Lab: LTRC
+
+Subhadip Mitra
+Assistant Professor 
+Ph.D (IIT, Kanpur)
+Research Areas: 
+High Energy Physics Theory / Phenomenology, Cosmology
+Research Center/Lab: CCNSB
+
+Sujit P. Gujar
+Assistant Professor 
+Ph.D (IISC, Bangalore)
+Research Areas: 
+Game Theory, Mechanism Design, Machine Learning, and Cryptography applied to modern web and AI applications (Auctions, Internet Advertising, Crowdsourcing, and multiagent systems)
+Research Center/Lab: CDE
+
+Sunitha Palissery
+Visiting Assistant Professor 
+Ph.D (IIT, Madras)
+Research Areas: 
+Seismic Design of Buildings, Seismic Nonlinear Behaviour of Buildings
+Research Center/Lab: EERC
+
+Suresh Purini
+Assistant Professor 
+Ph.D (University of Maryland, USA)
+Research Areas: 
+Compilers, parallel and distributed systems, virtualization, cloud computing and complexity theory(CVEST)
+Research Center/Lab: CSG
+
+Suryakanth V. Gangashetty
+Assistant Professor 
+Ph.D (IIT, Madras)
+Research Areas: 
+Speech processing, neural networks, signal processing, pattern recognition, soft computing, machine learning, image processing, natural language processing, artificial intelligence, fuzzy logic
+Research Center/Lab: LTRC
+
+Syed Azeemuddin
+Associate Professor 
+Ph.D (Southern Illinois University, Carbondale)
+Research Areas: 
+RFIC design integrated RF devices incorporated with patterned ferromagnetic materials, micro/nano electronics and integrated photonics, optical devices using ring lasers
+Research Center/Lab: CVEST , SPCRC
+
+Tapan Kumar Sau
+Associate Professor 
+Ph.D (IIT, Kharagpur)
+Research Areas: 
+Nanomaterials: developing inorganic nanomaterials with controlled properties for probing, sensing, imaging, and energy-related applications; exploring the nature of interactions between nanomaterials and their surroundings(CCNSB)
+Research Center/Lab: CCNSB
+
+Ubaidulla P
+Assistant Professor 
+Ph.D (IISC, Bangalore)
+Research Areas: 
+Signal processing, wireless communication, robust and distributedalgorithms for communication systems, convex optimisation(SPCRC)
+Research Center/Lab: SPCRC
+
+Vasudeva Varma
+Professor & Dean (RnD) 
+Ph.D (UOH, Hyderabad)
+Research Areas: 
+Information retrieval, social media analysis, semantic search, cloud computing and software engineering
+Research Center/Lab: SERC , LTRC , CIE
+
+Venkatesh Choppella
+Associate Professor 
+Ph.D (Indiana University, USA)
+Research Areas: 
+Programming languages, S/W architectures, Formal Methods, CS education
+Research Center/Lab: SERC , COS
+
+Venkateshwarlu M
+Professor of Eminence 
+Ph.D (University of Waterloo, USA)
+Research Areas: 
+Discrete systems, wave phenomena in solid media, finite element models, probability, statistics, stochastic processes in engineering(EERC, CBS, CETLS)
+Research Center/Lab: EERC , CBS , CETLS
+
+Vikram Pudi
+Associate Professor 
+Ph.D (IISC, Bangalore)
+Research Areas: 
+Data mining, artificial intelligence, database systems
+Research Center/Lab: CDE , COS
+
+Vineet Gandhi
+Assistant Professor 
+Ph.D (INRIA, France)
+Research Areas: 
+Computer vision and multimedia , human detection and tracking, computational photography and cinematography, depth reconstruction and applications.
+Research Center/Lab: CVIT
+
+Vinod P K
+Assistant Professor 
+Ph.D (IIT,Bombay)
+Research Areas: 
+Computational Systems Biology, Non-linear dynamics, Network Biology, Systems Pharmacology
+Research Center/Lab: CCNSB
+
+Vinoo Alluri
+Assistant Professor 
+Ph.D (University of Jyv‰skyl‰, Finland)
+Research Areas: 
+Cognitive Science, Neuroimaging, Music Information Retrieval, Music Cognition, Music Therapy, Cross-cultural studies, Audio Signal Processing
+Research Center/Lab: CogSci
+
+Vishal Garg
+Professor 
+Ph.D (IIT, Delhi)
+Research Areas: 
+Task control of lighting, heating, air-conditioning using fuzzy logic, smart occupancy sensors, fuzzy logic based protocol for wireless sensors network, intelligent building,I.T. in building science(CBS, EERC)
+Research Center/Lab: CBS , EERC
+
+Viswanath K.
+Research Professor of Eminence 
+Ph.D (ISI, Calcutta)
+Research Areas: 
+Mathematical computer science, pedagogical issues
+Research Center/Lab: SERC
+
+Zia Abbas
+Assistant Professor 
+Ph.D (Sapienza University of Rome, Italy)
+Research Areas: 
+Low power VLSI design, Statistical variations aware modelling and optimization of CMOS and FinFET circuits, High yield designs, Reliability issues in nanoscale CMOS and FinFET circuit circuits, Current mode circuits.
+Research Center/Lab: CVEST
