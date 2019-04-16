@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analysis</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+	<script src="https://github.com/hasura/js-sdk/releases/download/v0.1.4/hasura.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"></script> -->
+	<style>
+	#graph{
+		width:75%;
+		align-content: center;
+	}
+	#table {
+	    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	    border-collapse: collapse;
+	    width: 50%;
+	}
+
+	#table tr:nth-child(even){background-color: #f2f2f2;}
+
+	#table tr:hover {background-color: #ddd;}
+
+	#table th {
+	    padding-top: 12px;
+	    padding-bottom: 12px;
+	    text-align: left;
+	    background-color: #3399ff;
+	    color: white;
+	}
+	</style>
+	<script>
+		var selectedCateg='stocks';
+		var yearlist=[];
+		$(document).ready(function() {
+			hasura.setProject('carouse41');
+
+			$('#dropdown-select').hide();
+			$('#stockHead').hide();
+			$('#fifaHead').hide();
+
+			$("#stocks").on('click',function(e) {
+				selectedCateg='stocks';
+				hasura.data.query({
+				type: 'select',
+				args: {
+					table: 'stocks',
+					columns: ['*']
+				}
+			},
+			(data)=>{makeDropdown(data)},
+			(error)=>{console.log("ERROR "); console.log(error);});
+			});
+
+			$("#games").on('click',function(e) {
+				selectedCateg='games';
+				hasura.data.query({
+				    type: "select",
+				    args: {
+				        table: "fifa_player_analysis",
+				        columns: [
+				            "player_name"
+				        ],
+				        where: {
+				            year: "2018"
+				        }
+				    }
+				},
+				(data)=>{makeDropdown(data)},
+				(error)=>{console.log("ERROR "); console.log(error);});
+			});
+
+			function makeDropdown(data) {
+				$('#dropdown-select').empty();
+				$('#dropdown-select').show();
+				console.log('Got this data: ');
+				console.log(data);
+
+				sel = $('#dropdown-select'); 
+				$.each(data,function(k,v){
+					if(selectedCateg=='stocks'){
+						sel.append('<option value="'+v.stock_name+'">'+v.stock_name+'</option');
+					}
+					else{
+						sel.append('<option value="'+v.player_name+'">'+v.player_name+'</option');
+					}			
+				});
+			}
+
+			console.log("=== Data fetched");
+			$("#dropdown-select").on('change',function(e) {
+				console.log('Changed value');
+				tab=$("#table");
+				tab.hide();
+				if(selectedCateg=='stocks'){
+					var company = $('#dropdown-select').val();
+					console.log(company);
+					
+					hasura.data.query({
+					type: 'select',
+						args: {
+							table: 'stocks',
+							columns: ['*',{
+								name: "financials",
+								columns: ['*'],
+								order_by: "year"
+							}],
+							where:{
+								stock_name: company
+							}
+						}
+					},
+					(data)=>{drawChart(data)},
+					(error)=>{console.log("ERROR "); console.log(error);
+					});
+
+				}
+				else{
+					var player = $('#dropdown-select').val();
+					console.log(player);
+					
+					hasura.data.query({
+					type: 'select',
+						args: {
+							table: 'fifa_player_analysis',
+							columns: ['*'],
+							where:{player_name: player}
+						}
+					},
+					(data)=>{drawChart(data)},
+					(error)=>{console.log("ERROR "); console.log(error);
+					});
+				}
+				function drawChart(data) {
+					var canvas = document.getElementById('canvas');
+					var ctx = canvas.getContext('2d');
+					var company,dataset,player,title='Economic Profit Ratio Chart',yaxis='Economic Profit Ratio',specific;
+					if(selectedCateg=='stocks'){
+						title=' Economic Profit Ratio Chart';
+						yaxis='Economic Profit Ratio';
+						company = data[0];
+
+						tab.show(); $('#fifaHead').hide(); $('#stockHead').show();
+
+						tab.find("tr:gt(1)").remove();
+						for (var i = company.financials.length - 1; i >= 0; i--) {
+							tab.append('<tr><td>'+company.stock_name+'</td><td>'+company.financials[i].ep_ratio+'</td><td>'+company.financials[i].year+'</td><td>'+company.financials[i].total_revenue+'</td><td>'+company.financials[i].other_income+'</td><td>'+company.financials[i].total_tax+'</td></tr>');
+						}
+						yearlist = ['2013', '2014', '2015', '2016', '2017'];
+						console.log("========================");
+						console.log(data);
+
+						dataset = {
+							label: company.stock_name,
+							backgroundColor: window.chartColors.blue,
+							borderColor: window.chartColors.blue,
+							data: [
+									company.financials[0].ep_ratio,
+									company.financials[1].ep_ratio,
+									company.financials[2].ep_ratio,
+									company.financials[3].ep_ratio,
+									company.financials[4].ep_ratio
+								],
+							fill: false
+						}
+						specific=company.stock_name;
+						console.log(company);
+					}
+					else{
+						title=' Fifa Player Analysis';
+						yaxis='Hits';
+						player = data;
+						console.log("========================");
+						tab.show(); $('#stockHead').hide(); $('#fifaHead').show();
+						tab.find("tr:gt(1)").remove();
+						for (var i = player.length - 1; i >= 0; i--)
+							tab.append('<tr><td>'+player[i].year+'</td><td>'+player[i].hits+'</td></tr>');
+
+						yearlist=['2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018'];
+						console.log("========================");
+						console.log(data);
+						var DATA=[];
+						for (var i = player.length - 1; i >= 0; i--) {
+							DATA.push(player[i]['hits']);
+						}
+						console.log(DATA);
+
+						dataset = {
+							label: player[0]['player_name'],
+							backgroundColor: window.chartColors.blue,
+							borderColor: window.chartColors.blue,
+							data: DATA,
+							fill: false
+						}
+						specific=player[0]['player_name'];
+						console.log(player);
+					}
+					var data = {
+						labels: yearlist,
+						datasets: [dataset]
+					}
+					var opts = {
+						responsive: false,
+						title: {
+							display: true,
+							text: specific + title
+						},
+						tooltips: {
+							mode: 'index',
+							intersect: false,
+						},
+						hover: {
+							mode: 'nearest',
+							intersect: true
+						},
+						scales: {
+							xAxes: [{
+								display: true,
+								scaleLabel: {
+									display: true,
+									labelString: 'Year'
+								}
+							}],
+							yAxes: [{
+								display: true,
+								scaleLabel: {
+									display: true,
+									labelString: yaxis
+								}
+							}]
+						}
+					}
+					canvas.width = 900; //window.innerWidth;
+					canvas.height = 500; //window.innerHeight;
+					window.myChart = new Chart(ctx, {type: 'line', data:data, options: opts});
+					console.log('Chart created');
+				}
+			});
+		});
+
+	</script>
+	<style type="text/css">
+    .container {
+        margin-left:-5px;
+		margin-right:-5px;
+    }
+	</style>
+</head>
+<body>
+	<div id="graph">
+	<h1>Analytics</h1>
+		<input type="radio" id="stocks" name="select" value="Stocks">Stocks<br>
+	 	<input type="radio" id="games" name="select" value="Games">Games<br>
+	 	<br>
+		<select id='dropdown-select'>
+			<div id="dropdown-options">
+				<option value="default">Select one</option>
+				<!-- <option value="default">Sede</option> -->
+			</div>
+		</select>
+	<canvas id='canvas'></canvas>
+	<div>
+	<br>
+	<table id="table" cellpadding="10" align="center">
+		<tr id="stockHead">
+			<th>Stock Name</th>
+			<th>Economic Profit Ratio</th>
+			<th>Year</th>
+			<th>Revenue</th>
+			<th>Other Income</th>
+			<th>Taxes</th>
+		</tr>
+		<tr id="fifaHead">
+			<th>Year</th>
+			<th>Hits</th>
+		</tr>
+	</table>
+</body>
+	<script >'use strict';
+
+	window.chartColors = {
+		red: 'rgb(255, 99, 132)',
+		orange: 'rgb(255, 159, 64)',
+		yellow: 'rgb(255, 205, 86)',
+		green: 'rgb(75, 192, 192)',
+		blue: 'rgb(54, 162, 235)',
+		purple: 'rgb(153, 102, 255)',
+		grey: 'rgb(201, 203, 207)'
+	};
+
+	(function(global) {
+		var Months = [
+			'January',
+			'February',
+			'March',
+			'April',
+			'May',
+			'June',
+			'July',
+			'August',
+			'September',
+			'October',
+			'November',
+			'December'
+		];
+
+		var COLORS = [
+			'#4dc9f6',
+			'#f67019',
+			'#f53794',
+			'#537bc4',
+			'#acc236',
+			'#166a8f',
+			'#00a950',
+			'#58595b',
+			'#8549ba'
+		];
+
+		var Samples = global.Samples || (global.Samples = {});
+		var Color = global.Color;
+
+		Samples.utils = {
+			// Adapted from http://indiegamr.com/generate-repeatable-random-numbers-in-js/
+			srand: function(seed) {
+				this._seed = seed;
+			},
+
+			rand: function(min, max) {
+				var seed = this._seed;
+				min = min === undefined ? 0 : min;
+				max = max === undefined ? 1 : max;
+				this._seed = (seed * 9301 + 49297) % 233280;
+				return min + (this._seed / 233280) * (max - min);
+			},
+
+			numbers: function(config) {
+				var cfg = config || {};
+				var min = cfg.min || 0;
+				var max = cfg.max || 1;
+				var from = cfg.from || [];
+				var count = cfg.count || 8;
+				var decimals = cfg.decimals || 8;
+				var continuity = cfg.continuity || 1;
+				var dfactor = Math.pow(10, decimals) || 0;
+				var data = [];
+				var i, value;
+
+				for (i = 0; i < count; ++i) {
+					value = (from[i] || 0) + this.rand(min, max);
+					if (this.rand() <= continuity) {
+						data.push(Math.round(dfactor * value) / dfactor);
+					} else {
+						data.push(null);
+					}
+				}
+
+				return data;
+			},
+
+			labels: function(config) {
+				var cfg = config || {};
+				var min = cfg.min || 0;
+				var max = cfg.max || 100;
+				var count = cfg.count || 8;
+				var step = (max - min) / count;
+				var decimals = cfg.decimals || 8;
+				var dfactor = Math.pow(10, decimals) || 0;
+				var prefix = cfg.prefix || '';
+				var values = [];
+				var i;
+
+				for (i = min; i < max; i += step) {
+					values.push(prefix + Math.round(dfactor * i) / dfactor);
+				}
+
+				return values;
+			},
+
+			months: function(config) {
+				var cfg = config || {};
+				var count = cfg.count || 12;
+				var section = cfg.section;
+				var values = [];
+				var i, value;
+
+				for (i = 0; i < count; ++i) {
+					value = Months[Math.ceil(i) % 12];
+					values.push(value.substring(0, section));
+				}
+
+				return values;
+			},
+
+			color: function(index) {
+				return COLORS[index % COLORS.length];
+			},
+
+			transparentize: function(color, opacity) {
+				var alpha = opacity === undefined ? 0.5 : 1 - opacity;
+				return Color(color).alpha(alpha).rgbString();
+			}
+		};
+
+		// DEPRECATED
+		window.randomScalingFactor = function() {
+			return Math.round(Samples.utils.rand(-100, 100));
+		};
+
+		// INITIALIZATION
+
+		Samples.utils.srand(Date.now());
+
+		// Google Analytics
+		/* eslint-disable */
+		if (document.location.hostname.match(/^(www\.)?chartjs\.org$/)) {
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-28909194-3', 'auto');
+			ga('send', 'pageview');
+		}
+		/* eslint-enable */
+
+	}(this));
+	</script>
+</html>
